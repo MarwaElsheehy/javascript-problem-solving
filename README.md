@@ -1,1 +1,1 @@
-Problem solving | Codewars
+Problem Solving | Codewars
