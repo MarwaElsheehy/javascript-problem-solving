@@ -1,5 +1,5 @@
 function divisibleBy(numbers, divisor){
-  let res = []
+  let res = [];
   for (number of numbers) {
     if (number % divisor == 0) {
       res.push(number);
