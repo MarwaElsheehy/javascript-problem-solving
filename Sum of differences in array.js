@@ -10,4 +10,4 @@ function sumOfDifferences(arr) {
 
   return sum;
 }
-console.log(sumDescendingDifferences([2, 1, 10]));
+console.log(sumOfDifferences([2, 1, 10]));
