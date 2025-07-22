@@ -1,7 +1,7 @@
 function sumOfDifferences(arr) {
   if (arr.length < 2) return 0;
 
-  const sorted = arr.slice().sort((a, b) => b - a);
+  const sorted = arr.sort((a, b) => b - a);
   let sum = 0;
 
   for (let i = 0; i < sorted.length - 1; i++) {
