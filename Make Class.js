@@ -3,9 +3,9 @@ function makeClass(...props) {
     constructor(...values) {
       props.forEach((prop, index) => {
         this[prop] = values[index];
-      });
+      })
     }
-  };
+  }
 }
 const Animal = makeClass("name", "species", "age", "health", "weight", "color");
 
